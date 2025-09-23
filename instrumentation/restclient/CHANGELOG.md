@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-restclient
 
+## [0.23.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-restclient v0.23.0...opentelemetry-instrumentation-restclient/v0.23.1) (2025-09-23)
+
+
+### Features
+
+* rest-client HTTP semantic convention stability migration ([#1568](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1568)) ([98446e7](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/98446e7d3ee28819adf687513a4772d9ac36a843))
+
 ### v0.24.0 / 2025-07-29
 
 * ADDED: Add REST Client `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1568](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1568)

@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-ethon
 
+## [0.22.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-ethon v0.22.0...opentelemetry-instrumentation-ethon/v0.22.1) (2025-09-23)
+
+
+### Features
+
+* Ethon HTTP semantic convention stability migration ([#1561](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1561)) ([774496f](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/774496f6c7b1e8eff8c44c74f924dbf3cad1e855))
+
 ### v0.23.0 / 2025-07-29
 
 * ADDED: Add Ethon `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1561](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1561)

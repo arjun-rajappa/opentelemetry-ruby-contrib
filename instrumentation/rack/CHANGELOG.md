@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-rack
 
+## [0.26.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-rack v0.26.0...opentelemetry-instrumentation-rack/v0.26.1) (2025-09-23)
+
+
+### Features
+
+* Rack semantic stability opt in ([#1594](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1594)) ([49a2982](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/49a29827704c3efa4669a7fe21098652fba58629))
+
 ### v0.27.0 / 2025-08-19
 
 * ADDED: Add `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable compatibility [#1594](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1594)

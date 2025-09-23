@@ -1,5 +1,18 @@
 # Release History: opentelemetry-instrumentation-all
 
+## [0.72.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-all v0.72.0...opentelemetry-instrumentation-all/v0.72.1) (2025-09-23)
+
+
+### Features
+
+* Add `opentelemetry-instrumentation-grpc` to `-all` ([#1471](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1471)) ([c5395f9](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/c5395f93b36d4c823998adcf0e8a39277df74260))
+* Add HTTPX instrumentation to all ([#1628](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1628)) ([15ebe4d](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/15ebe4dddc7620f5b28ada67e9d92bfab02b9fbe))
+
+
+### Bug Fixes
+
+* add require active_storage instrumentation to `all` ([#1396](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1396)) ([711be26](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/711be26cee57769fe15f5e56c5e8724d64403fd1))
+
 ### v0.80.0 / 2025-08-19
 
 ADDED: Add `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable compatibility for Rack. This includes an integration with Action Pack (Rails) and Sinatra instrumentation libraries. [#1594](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1594)
