@@ -1,5 +1,17 @@
 # Release History: opentelemetry-instrumentation-httpx
 
+## [0.2.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-httpx v0.2.0...opentelemetry-instrumentation-httpx/v0.2.1) (2025-09-23)
+
+
+### Features
+
+* HTTPX semantic convention stability opt in ([#1589](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1589)) ([07de1d6](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/07de1d62ec915f584e60653242acba1f9f33702a))
+
+
+### Bug Fixes
+
+* httpx instrumentation trace context propagation ([#1456](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1456)) ([fed9a0f](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/fed9a0f71d45ee726baa7c6d20f7ebe55bc71935))
+
 ### v0.3.0 / 2025-08-12
 
 * ADDED: HTTPX `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1589](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1589)

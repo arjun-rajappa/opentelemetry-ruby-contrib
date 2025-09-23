@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-sidekiq
 
+## [0.26.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-sidekiq v0.26.0...opentelemetry-instrumentation-sidekiq/v0.26.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* add support for Sidekiq 8 ([#1444](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1444)) ([f1dd08f](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/f1dd08fb15f22ee89eb8c99748b21bb5d6c2fdb4))
+
 ### v0.26.1 / 2025-04-01
 
 * FIXED: Add support for Sidekiq 8
