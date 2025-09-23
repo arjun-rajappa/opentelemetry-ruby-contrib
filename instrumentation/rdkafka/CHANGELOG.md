@@ -1,5 +1,14 @@
 # Release History: opentelemetry-instrumentation-rdkafka
 
+## [0.5.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-rdkafka v0.5.0...opentelemetry-instrumentation-rdkafka/v0.5.1) (2025-09-23)
+
+
+### Features
+
+* rdkafka support to v0.19 ([2b1ce12](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/2b1ce12592d37d05e6cbef3e8f6162077da557a0))
+* rdkafka support to v0.19 including ([#1403](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1403)) ([2b1ce12](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/2b1ce12592d37d05e6cbef3e8f6162077da557a0))
+* update gem version requirement of rdkafka ([#1442](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1442)) ([abde37a](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/abde37a23c00e2b72bcccd277a59aaacb7394e77))
+
 ### v0.7.0 / 2025-05-06
 
 * ADDED: Update minimum gem version requirement for rdkafka to 0.18.0

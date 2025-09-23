@@ -1,5 +1,13 @@
 # Release History: opentelemetry-instrumentation-faraday
 
+## [0.26.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-faraday v0.26.0...opentelemetry-instrumentation-faraday/v0.26.1) (2025-09-23)
+
+
+### Features
+
+* Faraday semantic convention stability opt in ([#1592](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1592)) ([19bec84](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/19bec84aaa6b5621d5c8858a1ef7b078bd4479b6))
+* suppress internal spans with Faraday instrumentation ([#1506](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1506)) ([2c11325](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/2c11325eb9e3eb009b1e66752110c1b43e6d75e3))
+
 ### v0.28.0 / 2025-08-12
 
 * ADDED: Add Faraday `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1592](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1592)

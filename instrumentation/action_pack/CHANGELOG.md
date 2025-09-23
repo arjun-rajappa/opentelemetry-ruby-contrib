@@ -1,5 +1,21 @@
 # Release History: opentelemetry-instrumentation-action_pack
 
+## [0.11.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-action_pack v0.11.0...opentelemetry-instrumentation-action_pack/v0.11.1) (2025-09-23)
+
+
+### Features
+
+* Rack semantic stability opt in ([#1594](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1594)) ([49a2982](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/49a29827704c3efa4669a7fe21098652fba58629))
+* Strip Rails `(.:format)` suffix from `http.route` ([#1375](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1375)) ([1e9853a](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/1e9853aa5ff5358aca0c572dafa5db40c2168442))
+
+
+### Bug Fixes
+
+* Account for `nil` routes ([#1527](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1527)) ([75ba22b](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/75ba22bd61d4d59c822f591f16cf72463b975fc7))
+* action_pack always assuming sdk spans ([#1562](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1562)) ([6703511](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/670351189a62dfe29e4fd5003947796388e1579e))
+* action_pack assuming sdk span ([6703511](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/670351189a62dfe29e4fd5003947796388e1579e))
+* rack span class naming ([#1555](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1555)) ([41702d6](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/41702d668f588332b6ca45ee22e682680ebc0b35))
+
 ### v0.13.0 / 2025-08-19
 
 * ADDED: Add `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable compatibility for Rack integration [#1594](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1594)

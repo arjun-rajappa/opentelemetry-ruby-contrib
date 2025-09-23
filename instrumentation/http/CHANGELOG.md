@@ -1,5 +1,17 @@
 # Release History: opentelemetry-instrumentation-http
 
+## [0.24.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-http v0.24.0...opentelemetry-instrumentation-http/v0.24.1) (2025-09-23)
+
+
+### Features
+
+* http semconv opt in files ([#1547](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1547)) ([7837db8](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/7837db80a55a5b840d9d38f1d014536f104f9132))
+
+
+### Bug Fixes
+
+* update span name when semconv stability is enabled ([#1570](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1570)) ([3a237a5](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/3a237a5e089239623ee8cfa2e8d2b7e07e1d552a))
+
 ### v0.25.1 / 2025-07-01
 
 * FIXED: Update span name when semconv stability is enabled

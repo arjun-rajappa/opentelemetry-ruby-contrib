@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-rake
 
+## [0.3.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-rake v0.3.0...opentelemetry-instrumentation-rake/v0.3.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* handle force_flush for rake task with arguments ([#1412](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1412)) ([67743b2](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/67743b23683666690507450a35f231f07604c483))
+
 ### v0.3.1 / 2025-06-03
 
 * FIXED: Handle force_flush for rake task with arguments
