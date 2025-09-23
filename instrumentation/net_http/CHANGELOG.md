@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-net_http
 
+## [0.23.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-net_http v0.23.0...opentelemetry-instrumentation-net_http/v0.23.1) (2025-09-23)
+
+
+### Bug Fixes
+
+* net_http and aws_sdk ci fix ([#1604](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1604)) ([5a43d86](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/5a43d86b23689cc320f24f48c214fb667ba7314e))
+
 ### v0.23.1 / 2025-07-29
 
 * FIXED: net_http and aws_sdk ci fix

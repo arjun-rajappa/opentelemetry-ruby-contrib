@@ -1,5 +1,12 @@
 # Release History: opentelemetry-propagator-xray
 
+## [0.23.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-propagator-xray v0.23.0...opentelemetry-propagator-xray/v0.23.1) (2025-09-23)
+
+
+### Features
+
+* contribute xray lambda propagator ([#1464](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1464)) ([07d188e](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/07d188e503a760d05e6c8953e083662f64d4a88d))
+
 ### v0.24.0 / 2025-05-06
 
 * ADDED: Contribute xray lambda propagator

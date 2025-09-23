@@ -1,5 +1,19 @@
 # Release History: opentelemetry-instrumentation-dalli
 
+## [0.26.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-dalli v0.26.0...opentelemetry-instrumentation-dalli/v0.26.1) (2025-09-23)
+
+
+### Features
+
+* support meta protocol instrumentation ([#1480](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1480)) ([db1286a](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/db1286a82a85dd99c1e9760a4a0811fbfa6ec4c2))
+
+
+### Bug Fixes
+
+* compact Dalli attributes ([#1548](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1548)) ([4dbb668](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/4dbb668aa3cb86a06e948c0e0b0f47dba7cd7f8b))
+* Do not pollute the `OpenTelemetry::Instrumentation` namespace ([#1511](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1511)) ([de4da24](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/de4da2473a851979823c0dcfcc87642494187afc))
+* only prepend Dalli patch if binary protocol defined ([#1489](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1489)) ([74875b7](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/74875b7bc68d2ff6c8018fa3733437ea4bdef196))
+
 ### v0.27.3 / 2025-05-27
 
 * FIXED: Compact Dalli attributes

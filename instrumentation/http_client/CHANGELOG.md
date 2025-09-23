@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-http_client
 
+## [0.23.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-http_client v0.23.0...opentelemetry-instrumentation-http_client/v0.23.1) (2025-09-23)
+
+
+### Features
+
+* HTTPClient semantic convention stability migration ([#1588](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1588)) ([c3edc8d](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/c3edc8d1394d9e14f567267e712138aa6f9ef39c))
+
 ### v0.24.0 / 2025-07-29
 
 * ADDED: Add HTTPClient `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1588](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1588)
