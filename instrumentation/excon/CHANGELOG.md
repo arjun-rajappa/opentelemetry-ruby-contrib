@@ -1,5 +1,12 @@
 # Release History: opentelemetry-instrumentation-excon
 
+## [0.23.1](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/compare/opentelemetry-instrumentation-excon v0.23.0...opentelemetry-instrumentation-excon/v0.23.1) (2025-09-23)
+
+
+### Features
+
+* excon HTTP semantic convention stability migration ([#1569](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/issues/1569)) ([8437ce6](https://github.com/arjun-rajappa/opentelemetry-ruby-contrib/commit/8437ce61acd5f9d19a8e1708e857b76707b56543))
+
 ### v0.24.0 / 2025-08-12
 
 * ADDED: Add Excon `OTEL_SEMCONV_STABILITY_OPT_IN` environment variable [#1569](https://github.com/open-telemetry/opentelemetry-ruby-contrib/pull/1569)
